@@ -1,0 +1,222 @@
+*{
+    box-sizing: border-box;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+:root{
+
+    --dark-col: #221D23;
+    --gray-col:#5C5C5C;
+    --coffee: #524632;
+    --caramel: #8F7E4F;
+    --cream:#A6A182;
+    --ligh-dark:#DEDBD8;
+    --maxwidth1: 1500px;
+}
+header nav #navbarNavDropdown{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+header nav .lang-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+header nav .logo{
+    width: 148px;
+    height: 33px;
+}
+header nav .logo  img{
+    width: 100%;
+height: 100%;
+}
+header nav .lang-search select{
+    border: none;
+
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: none !important;
+}
+header nav .lang-search li{
+    margin-left: 10px;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+header nav{
+    width:80%;
+}
+.navbar-nav .nav-link {
+    position: relative; /* Pozisyonu belirleyin */
+    color: var(--caramel);
+}
+.navbar-nav .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0; /* İlk başta genişliği sıfır yapın */
+    height: 2px;
+    bottom: 0;
+    background-color: var(--caramel);
+    transition: width 0.3s ease; /* Geçiş efekti ekleyin */
+}
+.navbar-nav .nav-link:hover::after {
+    width: 100%; /* Hover durumunda çizgiyi sola doğru genişletin */
+}
+
+/* footer */
+.footer-inside{
+    max-width: 1200px;
+    margin: auto;
+    padding: 60px 0px;
+    justify-content: space-between;
+}
+footer{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../images/23\ 1.png");
+}
+footer img{
+    width: 360px;
+    height: 60px;
+}
+footer .social-icons {
+    display: flex;
+}
+footer .social-icons li span{
+    display: none;
+}
+footer .social-icons li{
+    margin-right: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    background-color:  var(--ligh-dark);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+   
+}
+footer .social-icons li a{
+    color: white;
+    font-size: 20px;
+}
+footer .social-icons li:last-child{
+    margin-right: 0px;
+}
+footer .social-icons .icon{
+    background: #5C5C5C;
+    border-radius: 50%;
+    /* padding: 9px; */
+    width: 34px;
+    height: 36px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  
+}
+footer .social-icons li a i{
+    font-size: 23px;
+}
+/* .footer-common p:last-child{
+    text-align: end;
+} */
+.footer-common{
+    max-width: 1200px;
+margin: auto;
+}
+footer ul{
+padding-left: 0px;
+}
+.footer-common .right-first ul{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-common .right-first  ul li{
+    text-align: start;
+}
+.footer-common .footer-headtxt{
+    font-size: 32px;
+    font-weight: 500;
+}
+.footer-common .footer-right ul{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-right .right-first{
+    margin-right: 90px;
+}
+.footer-right .right-first:last-child{
+    margin: 0px;
+}
+.footer-common .contactus ul li span{
+    display: none;
+} 
+.footer-common .contactus ul li a i{
+    font-size: 23px;
+    color: black;
+}
+.footer-common .contactus {
+    width: 100%;
+}
+.footer-common .contactus ul{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-lang{
+    display: flex;
+    justify-content: end;
+}
+.footer-lang{
+    font-size: 30px;
+}
+.footer-lang a{
+    background-color: var(--cream);
+    width: 88px;
+    height: 43px;
+    text-decoration: none;
+    color: var(--coffee);
+    text-align: center;
+    font-weight: bold;
+
+    padding: 10px 28px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.footer-lang .lang2 select{
+    border: none;
+    background: none;
+   font-weight: 400;
+    line-height: 28;
+    font-size: 20px;
+}
+.footer-common .sosial-media p{
+font-size: 28px;
+font-family: Jost;
+}
+.footer-common .footer-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer .rights{
+    text-align: end;
+    max-width: 1200px;
+    margin: auto;
+}
+.footer-common .sosial-media{
+    margin-top: 120px;
+}
+footer a{
+    text-decoration: none;
+    color: #524632 ;
+}

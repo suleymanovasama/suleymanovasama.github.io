@@ -1,0 +1,286 @@
+@media (max-width:1920px){
+    main .about-up{
+        max-width: 1200px;
+    }
+    main .about-middle-inside{
+        max-width: 1200px;
+    }
+    main .services{
+        max-width: 1200px;
+    }
+    .choose-us .choose-us-inside{
+        max-width: 1000px;
+    }
+    .clients h3{
+        max-width: 1200px;
+    }
+    .Reference{
+        max-width: 1200px;
+    }
+    .find-us{
+        max-width: 1200px;
+    }
+    .about-middle {
+background-size: 100%;
+}
+    
+}
+
+@media(max-width:900px){
+    main .about-up ul{
+        overflow-x: scroll;
+        width: max-content;
+    }
+    main .about-up ul li {
+     width: 260px;
+}
+main .about-up{
+    overflow-x: scroll;
+}
+main .about-up{
+padding-top: 30px;
+}
+    .choose-us .choose-us-inside ul li{
+        align-items: center;
+    }
+    .choose-us .choose-us-inside ul{
+        align-items: start;
+    }
+    header .navbar-nav{
+        display: none;
+    }
+    main .design-type .design-up{
+        flex-direction: column-reverse;
+    }
+    main{
+        padding: 0px 12px;
+    }
+    main .design-type .design-up-right{
+        width: 100%;
+    }
+    main .design-type .design-up .design-up-left {
+    width: 100%;
+    }
+    main .design-type .design-up:nth-child(2){
+        flex-direction: column;
+    }
+    main .design-type .design-up .design-up-left{
+        padding: 12px 100px;
+    }
+    main .about-middle .about-middle-text h3{
+        font-size: 24px;
+    }
+    main .about-middle .about-middle-left{
+        height: 300px;
+    }
+    main .about-middle .about-middle-text{
+        margin-left: 24px;
+    }
+    .footer-common .footer-headtxt{
+        font-size: 20px;
+    }
+    .footer-inside{
+        flex-direction: column-reverse;
+    }
+    footer img{
+        width: 95px;
+        height: 20px;
+    }
+    .footer-common .footer-right .right-first ul{
+        flex-direction: column;
+    }
+    footer{
+        padding: 0px 12px;
+    }
+    .footer-inside{
+        padding: 12px 0px;
+    }
+    .footer-common .right-first ul li{
+        /* margin-bottom: 14px; */
+    }
+    .footer-common .contactus ul li span{
+        display: inline-block;
+        margin-left: 8px;
+    }
+    .footer-lang {
+    display: none;
+    }
+    .footer-common .sosial-media{
+        margin-top: 0px;
+    }
+    .footer-inside .footer-left{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+     footer .social-icons li{
+        width: 42px;
+        height: 42px;
+    }
+    footer .social-icons li a{
+        font-size: 17px;
+    }
+    footer .social-icons .icon{
+        width: 23px;
+        height: 23px;
+        
+    }
+    footer .social-icons li a i{
+        font-size: 16px;
+    }
+    .footer-common .sosial-media p{
+        font-size: 13px;
+        font-weight: bold;
+    }
+    
+    .footer-common .sosial-media p {
+    font-size: 20px;
+    }
+    footer .contactus ul li{
+        margin-bottom: 1rem;
+    }
+    footer .rights{
+        font-size: 10px;
+    }
+    .find-us .find-us-img{
+        flex-direction: column;
+    }
+    .find-right{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .find-us{
+      padding-bottom: 40px;
+      padding-top: 40px;
+    }
+    .find-right{
+        margin-top: 32px;
+    }
+    .find-us .find-left{
+        height: 202px;
+        width: 100%;
+    }
+    .Reference{
+        margin-bottom: 0px;
+    }
+    .Reference .swiper-pagination{
+        display: none;
+    }
+    .Reference .swiper-slide{
+        width: 70% ;
+       
+    }
+    .Reference .card h6{
+        font-size: 18px;
+    }
+    .Reference p{
+        font-size: 13px;
+    }
+    .Reference .card{
+        width: 100%;
+    }
+
+    .clients .mySwiperclient .swiper-slide{
+        height: 135px;
+    }
+}
+
+
+@media(max-width:500px){
+    header nav .logo{
+        width: 94px;
+        height: 27px;
+    }
+    main .design-type .design-up .design-up-left p{
+        margin-bottom: 0px;
+    }
+    main .design-type .design-up .design-up-left .de{
+        font-size: 16px;
+        line-height: 19.45px;
+    }
+    .design-up svg{
+        height: 37px;
+    }
+  
+    main .about-middle .about-middle-left img{
+        width: 100%;
+    }
+    .choose-us .choose-us-inside img{
+        width: 25px;
+        height: 32px;
+    }
+    .choose-us .choose-us-inside .icon{
+        width: 58px;
+        height: 58px;
+        margin-bottom: 12px;
+    }
+    .choose-us .choose-us-inside ul li .choose-number{
+        font-size: 14px;
+    }
+    .choose-us .choose-us-inside h3{
+        display: none;
+    }
+    .why-chose{
+        padding:30px 12px 30px 12px;
+        font-family: Junge;
+        font-size: 12px;
+        
+    }
+    main .about-middle .about-middle-left{
+        width: 200px;
+        height: 140px;
+    }
+    main .about-middle .about-middle-text h3{
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+    main .about-middle .about-middle-text p{
+        font-size: 8px;
+    }
+    main .about-middle-inside{
+        padding: 0px;
+        align-items: center;
+    }
+    main .about-middle-inside{
+        margin: 30px 0px;
+        margin-bottom: 0px;
+        align-items: start;
+    }
+    .read-more-btn{
+        margin-bottom: 10px;
+        font-size: 6px;
+    }
+    main .about-up ul li svg{
+        width: 33px;
+      height: 16px;
+    }
+    main .about-up ul li h4{
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+    main .about-up .design-name{
+        margin-bottom: 8px;
+    }
+    main .about-up ul li p{
+        margin-bottom: 0px;
+    }
+    main .services ul li{
+        width: 47%;
+        height: 86px;
+    }
+    main .services ul li img{
+        width: 18px;
+        height: 18px;
+    }
+    main .services-all{
+        background-image: none;
+    }
+    main .services-all{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    main .services h3{
+        font-size: 12px;
+    }
+}
